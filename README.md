@@ -28,6 +28,7 @@ pip install -r requirements.txt
 * Download the [velodyne](http://www.cvlibs.net/download.php?file=data_tracking_velodyne.zip), [calib](http://www.cvlibs.net/download.php?file=data_tracking_calib.zip) and [label_02](http://www.cvlibs.net/download.php?file=data_tracking_label_2.zip) from [KITTI Tracking](http://www.cvlibs.net/datasets/kitti/eval_tracking.php). Unzip the downloaded files and place them under the same parent folder.
 
 ### [nuScenes dataset](https://openaccess.thecvf.com/content_CVPR_2020/papers/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.pdf)
+* The code we have provided in [V2B](https://github.com/fpthink/V2B).
 * Download the Full dataset (v1.0) from [nuScenes](https://www.nuscenes.org/).
   
     Note that base on the offical code [nuscenes-devkit](https://github.com/nutonomy/nuscenes-devkit), we modify and use it to convert nuScenes format to KITTI format. It requires metadata from nuScenes-lidarseg. Thus, you should replace *category.json* and *lidarseg.json* in the Full dataset (v1.0). We provide these two json files in the nuscenes_json folder.
@@ -103,5 +104,4 @@ If you find the code or trained models useful, please consider citing:
 
 ## License
 This repository is released under MIT License.
-
 
