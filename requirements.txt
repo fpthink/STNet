@@ -1,0 +1,14 @@
+h5py
+numpy
+torchvision
+pprint
+enum34
+future
+pandas
+shapely
+matplotlib
+pomegrante
+ipykernel
+imageio
+pyquaternion
+Python >= 3.7
