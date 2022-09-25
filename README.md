@@ -89,7 +89,7 @@ For more preset parameters or command debugging parameters, please refer to the 
 If you find the code or trained models useful, please consider citing:
 
 ```
-@inproceedings{hui2021stnet,
+@inproceedings{hui2022stnet,
   title={3D Siamese Transformer Network for Single Object Tracking on Point Clouds},
   author={Hui, Le and Wang, Lingpeng and Tang, Linghua and Lan, Kaihao and Xie, Jin and Yang, Jian},
   booktitle={ECCV},
