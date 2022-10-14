@@ -95,6 +95,12 @@ If you find the code or trained models useful, please consider citing:
   booktitle={ECCV},
   year={2022}
 }
+@inproceedings{hui2021v2b,
+  title={3D Siamese Voxel-to-BEV Tracker for Sparse Point Clouds},
+  author={Hui, Le and Wang, Lingpeng and Cheng, Mingmei and Xie, Jin and Yang, Jian},
+  booktitle={NeurIPS},
+  year={2021}
+}
 ```
 
 ## Acknowledgements
