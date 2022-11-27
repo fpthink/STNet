@@ -47,7 +47,7 @@ opts.ncols = 150
 opts.db = AttrDict(
     KITTI = AttrDict(
         data_dir = "/opt/data/common/kitti_tracking/kitti_t_o/training/",
-        val_data_dir = "/opt/data/common/kitti_tracking/kitti_t_o/testing/",
+        val_data_dir = "/opt/data/common/kitti_tracking/kitti_t_o/training/",
         category_name = ["Car", "Pedestrian", "Van", "Cyclist"][0],
     ),
     NUSCENES = AttrDict(
