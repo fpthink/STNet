@@ -215,7 +215,7 @@ class TestDataset(BaseDataset):
     def __init__(self, opts, split):
         super(TestDataset, self).__init__(
             which_dataset = opts.which_dataset,
-            path = opts.db.data_dir,
+            path = opts.db.val_data_dir,
             split = split,
             category_name = opts.db.category_name,
             offset_BB = opts.offset_BB,
